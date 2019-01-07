@@ -2,8 +2,14 @@ defmodule Baxter do
   @moduledoc """
   Baxter is a minimal Bayeux / CometD client for Elixir.
 
-  This implements only the client capabilities and doesn't support server concerns.
+  This implements only client capabilities and doesn't support server concerns.
+
+  A subscriber is a
   """
+
+  def handshake() do
+
+  end
 
   def connect() do
 
@@ -13,11 +19,11 @@ defmodule Baxter do
 
   end
 
-  def handshake() do
+  def subscribe(channel, replay_id, subscriber) do
 
   end
 
-  def subscribe() do
+  def publish(%{} = message) do
 
   end
 
